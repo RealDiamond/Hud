@@ -1,5 +1,3 @@
-HUD
-----
 Hi, I'm Rudy
 ----
 [My site](https://realdiamond.github.io/)
