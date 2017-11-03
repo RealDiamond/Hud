@@ -1,6 +1,6 @@
-#HUD
+HUD
 ----
-#Hi, I'm Rudy
+Hi, I'm Rudy
 ----
 [My site](https://realdiamond.github.io/)
 ----
