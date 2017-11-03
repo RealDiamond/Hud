@@ -1,5 +1,4 @@
 [![solarized dualmode](https://github.com/RealDiamond/hud_png/blob/master/hud_1.png)](#features)
-[![solarized dualmode](https://github.com/RealDiamond/hud_png/blob/master/hud_2.png)](#features)
 
 Hi, I'm Rudy
 ----
