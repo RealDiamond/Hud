@@ -74,7 +74,36 @@ local function hud_main()
 
 end
 
+
 hook.Add( "HUDPaint", 'hud_main', hud_main )
+
+hook.Add("HUDPaint","Lawsrules", function()
+
+    local config = hud_main_config()
+
+    local x = ScrW()
+    local y = ScrH()
+
+    draw.RoundedBox( config.Radius, x - 385, 5, 380, 120, config.laws )
+
+    surface.SetDrawColor( config.Outlined )
+    surface.DrawOutlinedRect( x - 385, 5, 380, 120 )
+
+    surface.SetDrawColor( config.Outlined )
+    surface.DrawOutlinedRect( x - 385, 5, 380, 18 )
+
+    draw.SimpleText("*Законы города*","ui.36",ScrW()-250,5,Color(255,255,255,255))
+
+    pos = 25
+    num = 1
+       for k,v in pairs(DarkRP.getLaws() ) do
+           draw.SimpleText(num..") "..v,"ui.36",ScrW()-380,pos,Color(255,255,255,255))
+           pos = pos + 16
+           num = num + 1
+       end
+end)
+
+
 
 local hidden = { "DarkRP_HUD", "DarkRP_Hungermod", "CHudHealth", "CHudAmmo", "DarkRP_Agenda" }
 
