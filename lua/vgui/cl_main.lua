@@ -92,12 +92,12 @@ hook.Add("HUDPaint","Lawsrules", function()
     surface.SetDrawColor( config.Outlined )
     surface.DrawOutlinedRect( x - 385, 5, 380, 18 )
 
-    draw.SimpleText("*Законы города*","ui.36",ScrW()-250,5,Color(255,255,255,255))
+    draw.SimpleText("*Законы города*","ui.36",ScrW()-250,5, config.text )
 
     pos = 25
     num = 1
        for k,v in pairs(DarkRP.getLaws() ) do
-           draw.SimpleText(num..") "..v,"ui.36",ScrW()-380,pos,Color(255,255,255,255))
+           draw.SimpleText(num..") "..v,"ui.36",ScrW()-380,pos, config.text )
            pos = pos + 16
            num = num + 1
        end
