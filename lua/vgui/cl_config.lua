@@ -39,7 +39,7 @@ config.text = Color( 255,255,255,220 )
 config.icon = Color( 255,255,255,255 )
 
 config.lockdown_text = "Мэр объявил комендантский час!"
-config.health_text = "Здоровья"
+config.health_text = "Здоровье"
 config.armor_text = "Броня"
 
 --НЕ трогать!--
