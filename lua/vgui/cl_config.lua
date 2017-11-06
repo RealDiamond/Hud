@@ -20,10 +20,13 @@ if CLIENT then
     surface.CreateFont("ui.39", { font = "Arial", size = 18, weight = 2500, outline = false, }) 
     surface.CreateFont("ui.38", { font = "Arial", size = 21, weight = 2500, outline = false, }) 
     surface.CreateFont("ui.37", { font = "Arial", size = 18, weight = 2500, outline = false, }) 
+    surface.CreateFont("ui.36", { font = "Arial", size = 17, weight = 2500, outline = false, })     
         
 end      
 
 config.Radius = 0
+
+config.laws = Color( 120,120,120,120 )
 
 config.basecolor = Color( 40,40,40,220 )
 config.Outlined = Color( 255,255,255,255 )
@@ -42,4 +45,4 @@ config.armor_text = "Броня"
 --НЕ трогать!--
 function hud_main_config()
 	return config
-end
+end 
