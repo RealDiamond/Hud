@@ -47,10 +47,10 @@ local function hud_main()
     sin = (math.sin(CurTime()) + 1) / 2
     if GetGlobalBool("DarkRP_LockDown") then
 
-        draw.RoundedBox( config.Radius, x - 820, 5, 300, 18, config.basecolor )
+        draw.RoundedBox( config.Radius, x - 820, 10, 300, 18, config.basecolor )
         surface.SetDrawColor( Color( 255, sin * 255, sin * 255 ) )
-        surface.DrawOutlinedRect( x - 820, 5, 300, 18 ) 
-        draw.SimpleText( config.lockdown_text ,"ui.39", x - 800, 5, Color( 255, sin * 255, sin * 255 ) )       
+        surface.DrawOutlinedRect( x - 820, 10, 300, 18 ) 
+        draw.SimpleText( config.lockdown_text ,"ui.39", x - 800, 10, Color( 255, sin * 255, sin * 255 ) )       
 
     end
 
