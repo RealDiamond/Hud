@@ -92,7 +92,7 @@ hook.Add("HUDPaint","Lawsrules", function()
     surface.SetDrawColor( config.Outlined )
     surface.DrawOutlinedRect( x - 385, 5, 380, 18 )
 
-    draw.SimpleText("*Законы города*","ui.36",ScrW()-250,5, config.text )
+    draw.SimpleText( config.lockdown_text ,"ui.36",ScrW()-250,5, config.text )
 
     pos = 25
     num = 1
