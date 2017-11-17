@@ -1,4 +1,4 @@
-[![solarized dualmode](https://imgur.com/kvemKsW)](#features)
+[![solarized dualmode](https://i.imgur.com/kvemKsW.png)](#features)
 
 Hi, I'm Rudy
 ----
