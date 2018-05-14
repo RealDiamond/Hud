@@ -3,7 +3,6 @@ Author: Rudy
 My contact
 
     Steam = http://steamcommunity.com/id/id187393908/
-    Mail = rudyransone@gmail.com
     Web = https://realdiamond.github.io/
     Twiter = https://twitter.com/RudyRansone
 
