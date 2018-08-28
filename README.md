@@ -6,6 +6,4 @@ Hi, I'm Rudy
 ----
 [My Steam](http://steamcommunity.com/id/id187393908/)
 ----
-```lua
-  draw.Box(x,y,w,h,Color)
-```
+
